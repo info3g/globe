@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+
+<channel>
+
+<title>SkillSharePractice</title>
+<link>https://skillsharepractice.myshopify.com</link>
+
+
+<!-- Collection:  -->
+<!-- Total product count:  -->
+
+
+<!-- Page: 1 of 1 -->
+
+<item>
+<g:id>4541234675849</g:id>
+<g:title>Warmth Box</g:title>
+<g:description><meta charset="utf-8">
+<p>Inside this box:</p>
+<ul>
+<li>Royal Mug - Lavender Bows &amp; Arrows from Morocco</li>
+<li>Hot Cocoa Mix - Organic Spicy from Paraguay</li>
+<li>Oaxacan Wooden Milk Frother from Mexico</li>
+<li>Assorted Animal Pillow - <em>Surprise Me!</em> from Kenya</li>
+</ul></g:description>
+<g:link>https://skillsharepractice.myshopify.com/warmth-box</g:link>
+<g:image_link>https://cdn.shopify.com/s/files/1/0324/6001/3705/products/DSC1085.jpg?v=1581114816</g:image_link>
+<g:brand></g:brand>
+<g:price>60.00</g:price> 
+<g:category></g:category>
+</item>
+
+
+</channel>
+
+</rss>

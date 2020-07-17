@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+
+<channel>
+
+<title>indybytes_testing_app</title>
+<link>https://indybytes-testing-app.myshopify.com</link>
+
+
+<!-- Collection: Dynamic -->
+<!-- Total product count: 1 -->
+
+
+<!-- Page: 1 of 1 -->
+
+<item>
+<g:id>1833626501154</g:id>
+<g:title>Product 1</g:title>
+<g:description>Product 1 Product 1 Product 1 Product 1 Product 1</g:description>
+<g:link>https://indybytes-testing-app.myshopify.com/product-1</g:link>
+<g:image_link>https://cdn.shopify.com/s/files/1/0050/9591/5554/products/FMB.jpg?v=1555316138</g:image_link>
+<g:brand>Juice (12oz)</g:brand>
+<g:price>129.00</g:price> 
+<g:category>Dynamic</g:category>
+</item>
+
+
+</channel>
+
+</rss>

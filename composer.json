@@ -1,0 +1,13 @@
+{
+  "name": "pixelinstaller",
+  "description": "A Shopify app which installs for faceook Pixel code",
+  "authors": [
+    {
+      "name": "Suman Bansal",
+      "email": "infothreeg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6.0"
+  }
+}

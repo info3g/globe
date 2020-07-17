@@ -1,0 +1,250 @@
+[30-Jun-2020 06:07:33 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/development/ShopOwnerData.php on line 12
+[30-Jun-2020 06:51:11 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/development/ShopOwnerData.php on line 12
+[30-Jun-2020 06:52:07 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/development/ShopOwnerData.php on line 12
+[30-Jun-2020 23:55:02 CST6CDT] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/customer/www/3ginfo.in/public_html/shopify/development/appSetup.php on line 17
+[30-Jun-2020 23:55:11 CST6CDT] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/customer/www/3ginfo.in/public_html/shopify/development/appSetup.php on line 17
+[03-Jul-2020 03:11:33 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/development/getCollections.php on line 13
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/development/vendor/phpish/shopify/shopify.php on line 76
+[03-Jul-2020 03:19:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function phpish\shopify\is_valid_request_hmac() in /home/customer/www/3ginfo.in/public_html/shopify/development/oauth.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/development/oauth.php on line 7
+[03-Jul-2020 03:19:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function phpish\shopify\is_valid_request_hmac() in /home/customer/www/3ginfo.in/public_html/shopify/development/oauth.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/development/oauth.php on line 7
+[07-Jul-2020 07:48:41 CST6CDT] PHP Notice:  Undefined index: code in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:48:41 CST6CDT] PHP Notice:  Undefined index: hmac in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:48:41 CST6CDT] PHP Notice:  Undefined index: appUrl in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:50:37 CST6CDT] PHP Notice:  Undefined index: code in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:50:37 CST6CDT] PHP Notice:  Undefined index: hmac in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:50:37 CST6CDT] PHP Notice:  Undefined index: appUrl in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 13
+[07-Jul-2020 07:51:12 CST6CDT] PHP Notice:  Undefined index: code in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 14
+[07-Jul-2020 07:51:12 CST6CDT] PHP Notice:  Undefined index: hmac in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 15
+[07-Jul-2020 07:51:12 CST6CDT] PHP Notice:  Undefined index: appUrl in /home/customer/www/3ginfo.in/public_html/shopify/development/dashboard.php on line 16
+[08-Jul-2020 08:42:33 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:44:52 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:45:42 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:46:20 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:51:22 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:57:24 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[08-Jul-2020 08:57:39 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('400: https://pr...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('400: https://pr...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('400: https://pr...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(20): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 00:39:33 CST6CDT] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/customer/www/3ginfo.in/public_html/shopify/globe/ShopOwnerData.php on line 12
+[09-Jul-2020 00:39:47 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 01:24:36 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:26:14 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:26:26 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:27:00 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:29:44 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:33:01 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 02:34:08 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 07:08:53 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 07:14:17 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 08:00:19 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 08:00:33 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 08:51:58 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[09-Jul-2020 08:54:16 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('401: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('401: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('401: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/getCollections.php(13): phpish\shopify\{closure}('GET /admin/cust...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[10-Jul-2020 08:25:14 CST6CDT] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+[10-Jul-2020 08:25:23 CST6CDT] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+[10-Jul-2020 08:26:11 CST6CDT] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+[10-Jul-2020 08:37:02 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 16
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[10-Jul-2020 08:37:08 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 16
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[10-Jul-2020 08:37:22 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 16
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[10-Jul-2020 08:41:08 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 16
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:11:59 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:12:53 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:13:06 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:13:07 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:13:14 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:19:41 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:21:15 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:29:41 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:35:55 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:41:05 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:43:09 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 00:56:58 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:03:59 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:16:01 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:16:56 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:17:28 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:21:49 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:22:45 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:22:51 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 12
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:27:21 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 13
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:29:02 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 11
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:30:37 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 11
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 01:31:41 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 11
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[11-Jul-2020 02:38:05 CST6CDT] PHP Parse error:  syntax error, unexpected '' . $data["image"][8] . '' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 23
+[11-Jul-2020 02:39:27 CST6CDT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 23
+[13-Jul-2020 05:11:18 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/customer/www/3ginfo.in/public_html/shopify/globe/files/productTags.php on line 8
+[13-Jul-2020 05:12:15 CST6CDT] PHP Warning:  require(/home/customer/www/3ginfo.in/public_html/shopify/globe/files/conf.php): failed to open stream: No such file or directory in /home/customer/www/3ginfo.in/public_html/shopify/globe/files/productTags.php on line 2
+[13-Jul-2020 05:12:15 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/customer/www/3ginfo.in/public_html/shopify/globe/files/conf.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/3ginfo.in/public_html/shopify/globe/files/productTags.php on line 2
+[13-Jul-2020 06:59:23 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('429: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('429: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('429: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php(241): phpish\shopify\{closure}('GET /admin/them...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[14-Jul-2020 07:08:15 CST6CDT] PHP Parse error:  syntax error, unexpected '":*?<>{}]/g,'');' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 213
+[14-Jul-2020 07:08:15 CST6CDT] PHP Parse error:  syntax error, unexpected '":*?<>{}]/g,'');' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 213
+[14-Jul-2020 07:10:29 CST6CDT] PHP Parse error:  syntax error, unexpected '":*?<>{}]/g,'');' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 213
+[14-Jul-2020 07:10:29 CST6CDT] PHP Parse error:  syntax error, unexpected '":*?<>{}]/g,'');' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 213
+[15-Jul-2020 07:15:18 CST6CDT] PHP Parse error:  syntax error, unexpected 'checkbox' (T_STRING) in /home/customer/www/3ginfo.in/public_html/shopify/globe/saveproductFeeds.php on line 21
+[16-Jul-2020 07:24:27 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:25:00 CST6CDT] PHP Fatal error:  Uncaught Error: Wrong parameters for phpish\shopify\ApiException([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php:157
+Stack trace:
+#0 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php(157): Exception->__construct('429: https://sk...', 'HTTP/2', NULL)
+#1 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(134): phpish\http\Exception->__construct('429: https://sk...', 'HTTP/2', Array, NULL, NULL)
+#2 /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php(85): phpish\shopify\ApiException->__construct('429: https://sk...', 'HTTP/2', Array, NULL)
+#3 /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php(115): phpish\shopify\{closure}('GET /admin/them...')
+#4 {main}
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/http/http.php on line 157
+[16-Jul-2020 07:26:29 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:26:37 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:26:57 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:28:09 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:29:08 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [3]  in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:33:14 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76
+[16-Jul-2020 07:33:17 CST6CDT] PHP Fatal error:  Uncaught phpish\shopify\CurlException: [6] Could not resolve host: admin in /home/customer/www/3ginfo.in/public_html/shopify/globe/addCart.php on line 14
+  thrown in /home/customer/www/3ginfo.in/public_html/shopify/globe/vendor/phpish/shopify/shopify.php on line 76

@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800');
+
+ul li a, label {
+  font-family: 'Roboto', sans-serif;
+}
+table {
+  border: 1px solid #dee6ed;
+}
+td, th {
+  border-top: 1px solid #dee6ed;
+  border-bottom: 1px solid #dee6ed;
+  border-right: 1px solid #dee6ed;
+}
+table#showPixel, table#showTags {
+  width: 100%;
+}
+th:first-child {
+  width: 40%;
+}
+.editPixelCode td:nth-child(2), .editProductTags td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.selCols {
+    padding: 8px 20px;
+}
+th {
+  padding: 12px 20px;
+  line-height: unset;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+}
+.content-container {
+  position: relative;
+  height: 100%;
+  background: #f8f9ff;
+}
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  text-align: center;
+  margin: 0 auto;
+}
+.loader span {
+  padding: 9px 14px;
+  background: #3B5998;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+}
+
+.content-container #main-container {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background: #f8f9ff;
+  height: 100%;
+}
+#main-container .Reviewtab {
+    width: 100%;
+    text-align: center;
+}
+.popup_close , .tagpopup_close {
+  float: right;
+}
+.edit_pixel, .delete_pixel {
+  margin: 5px;
+}
+input[type="text"]:disabled {
+  border: 0;
+}
+.content-container #main-container .Reviewtab {
+    width: 100%;
+    text-align: center;
+}
+.content-container #main-container #tabs {
+  border: 0;
+  padding: 0;
+  margin-top: 10px;
+  background: transparent;
+}
+.content-container #main-container  .ui-tabs .ui-tabs-nav {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.content-container #main-container #tabs ul {
+  border-radius: 0;
+  margin: 0 6px;
+  background-color: #000;
+}
+#showPixel thead, #showTags thead {
+  background-color: #3B5998;
+}
+#showPixel thead th, #showTags thead th {
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+}
+.editPixelCode td {
+  border: 0;
+}
+table#showPixel, table#showTags {
+  border: 0;
+}
+.editPixelCode td input.form-control, #product_tag td input.form-control  {
+  font-size: 16px;
+  font-weight: 200;
+  background-color: transparent;
+}
+.editPixelCode td, #product_tag td {
+  background-color: #f4f6f8;
+  border-bottom: 0; 
+  border-top: 0; 
+}
+.editPixelCode td:first-child, #product_tag td:first-child {
+  background-color: #f9fafb;
+}
+#tabs .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: left;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+#tabs  .ui-tabs-nav  .ui-state-active {
+  background: transparent;
+  font-weight: normal;
+  color: #000!important;
+}
+#tabs  .ui-tabs-nav .ui-tabs-tab a {
+  color: #000;
+}
+#tabs  .ui-tabs-nav .ui-tabs-tab {
+  background: transparent;
+}
+#tabs .ui-tabs-nav li a {
+  padding: 20px 27px!important;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+  border: 0;
+  margin: 0;
+}
+#tabs .ui-tabs-nav li {
+  border-right: 2px solid #828282;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  max-height: 64px;
+  height: 100%;
+}
+#tabs .ui-tabs-nav .ui-state-active a {
+  color: #fff;
+  border-bottom: 5px solid #3B5998;
+  outline: 0;
+}
+.form-control {
+  border: 1px solid #e2e4ec;
+  box-shadow: unset;
+}
+#tabs .ui-tabs-nav .ui-tabs-tab a {
+  color: #fff;
+}
+#contactUs {
+  margin: 15px 0;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.btn, .btn:hover {
+  background: #00a1ff;
+  color: #fff;
+  border: 0;
+  padding: 8px 25px;
+  margin-top: 10px;
+  border: 1px solid  #00a1ff;
+}
+tbody.editPixelCode {
+  background: #fff;
+}
+.editPixelCode .form-control {
+  padding: 22px 20px !important;
+}
+a.edit_pixel .fa, a.delete_pixel .fa {
+  color: #000;
+}
+.buttons-pixel, input#savepixel {
+  float: left;
+}
+.buttons-pixel, .buttons-tags {
+  margin-top: 25px;
+}
+.PixelPopup form#pixelSetting h4, .popupTagForm form#tagSetting h4 {
+  font-weight: 800;
+  margin-bottom: 30px;
+  background-color: #232222;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 12px;
+  margin-top: 0;
+  margin-left: -30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  z-index: 999;
+}
+.PixelPopup .form-group.first, .popupTagForm .form-group.first {
+  padding-top: 30px;
+}
+.popup_close .fa , .tagpopup_close .fa {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  z-index: 99999;
+  position: absolute;
+  top: 11px;
+}
+.PixelPopup input#savepixel, .popupTagForm input#savepixelTag {
+  border-radius: 21px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  padding: 6px 53px;
+  background-color: #3B5998;
+  border: 0;
+  color: #fff;
+  line-height: 30px;
+}
+.ui-tabs-panel .buttons-pixel input#saveEditPixel, #tabs #contactUs input#sendEmail, .showProductTags .buttons-tags input#saveEditTags {
+  border-radius: 21px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  padding: 6px 53px;
+  background-color: #3B5998;
+  border: 0;
+  color: #fff;
+  line-height: 30px;
+}
+.ui-tabs-panel .buttons-pixel input#addNewPixel, .showProductTags .buttons-tags input#addNewTag {
+  border-radius: 21px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  padding: 6px 40px;
+  background-color: #000;
+  border: 0;
+  color: #fff !important;
+  line-height: 30px;
+}
+#addNewPixel, #addNewTag {
+  background: transparent;
+  border: 1px solid #c5c5c5;
+  color: #1d2e41!important;
+  font-weight: 600;
+}
+.form-control {
+  color: #1d2e41!important;
+  font-weight: 600;
+  border-radius: 0 !important;
+}
+.PixelPopup, .TagPopup, .suggestionPopup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.PixelPopup-inner, .TagPopup-inner, .suggestionPopup-inner 
+{
+  width: 50%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+}
+form#pixelSetting h4, #tagSetting h4  {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#pixelSetting label, #tagSetting label {
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#pixelSetting .form-control, #tagSetting .form-control {
+  border: 1px solid #beccda !important;
+  box-shadow: unset;
+  border-radius: 4px !important;
+  height: 40px;
+  box-shadow: unset !important;
+  color: #1d2e41!important;
+}
+.popup_close .fa , .tagpopup_close .fa {
+  font-size: 15px;
+  font-weight: 400;
+  color: #beccdb;
+}
+a.edit_pixel, a.edit_pixeltag {
+  width: 50%;
+  float: left;
+  background-color: #c5ced6;
+  height: 100%;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+a.delete_pixel, a.delete_pixeltag {
+  width: 50%;
+  float: left;
+  background-color: #dfe3e8;
+  height: 100%;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+.editPixelCode tr:nth-child(even) td:first-child, .editPixelCode tr:nth-child(even) td:first-child input, .editProductTags tr:nth-child(even) td:first-child, .editProductTags tr:nth-child(even) td:first-child input {
+  background: #f4f6f8 !important;
+}
+#showPixel .editPixelCode td input, #showTags .editPixelCode td input {
+  background: #f9fafb;
+}
+input#saveEditPixel:focus, input#addNewPixel:focus, ul.ui-tabs-nav li:focus {
+  border: 0;
+  outline: 0;
+}
+#faq-accordion h3 {
+  padding: 12px 10px;
+}
+#faq-accordion span.ui-accordion-header-icon {
+  float: right;
+}
+#faq-accordion .ui-state-active, #faq-accordion .ui-state-hover {
+  background: #3B5998;
+  border: #3B5998;
+  color: #fff;
+}
+.video-instruction-main {
+  position: relative;
+  overflow: hidden;
+}
+.video-instruction-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border: 0;
+}
+.view_demo_instruction img {
+  position: relative;
+  left: 299px;
+  top: 50px;
+}
+.view_demo_instruction {
+  position: absolute;
+  background-color: #1715158f;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.loading_row td {
+	text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#settings .editPixelCode td:nth-child(2n+1), .editProductTags td:nth-child(2n+1) {
+    background-color: #cfe3f7;
+}
+#settings .editPixelCode tr:nth-child(2n+1) td:nth-child(2n+0), .editProductTags tr:nth-child(2n+1) td:nth-child(2n+0){
+	 background-color: #cfe3f7 !important;
+}
+#settings .editPixelCode td:nth-child(2n+1) input, .editProductTags td:nth-child(2n+1) input {
+    background-color: transparent !important;
+}
+#product_tag .editProductTags tr:nth-child(2n+1) td:nth-child(2n+0) {
+    background-color: #cfe3f7 !important;
+}
+#product_tag .editProductTags td:nth-child(2n+1){
+	background-color: #cfe3f7;
+}
+#product_tag .editProductTags tr:nth-child(2n+1) td:nth-child(2n+0) input {
+    background-color: transparent;
+}
+#main-container .Reviewtab svg {
+width: 20px;
+height: 20px;
+position: relative;
+top: 5px;
+margin-left: 8px;
+}
+.showcollection {
+    width: 100%;
+    display: inline-block;
+}
+.showcollection form#productsFeed {
+    width: 30%;
+    /* display: inline-block; */
+    float: left;
+}
+.Collection-product {
+       width: 65%;
+    display: inline-block;
+    float: right;
+    margin: 5px 15px;
+        border: 1px solid #eee;
+    background-color: #fff;
+    padding: 22px;
+}
+.Collection-product ul {
+    list-style: none;
+    background-color: #fff !important;
+    display: block;
+}
+.Collection-product ul li.p-index.products {
+      padding: 10px;
+    width: 18%;
+    margin: 6px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    float: left;
+}
+.Collection-product ul li.p-index.products .p-data {
+    display: block;
+    width: 100%;
+}
+.Collection-product ul li.p-index.products .pimage {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.Collection-product ul li.p-index.products .pimage img {
+       width: 100%;
+    padding-top: 10px;
+    height: 80px;
+    object-fit: contain;
+}
+.haveprocess {
+    display: none;
+}
+.Collection-product ul li.p-index.products .p-title .pid {
+    display: inline-block;
+    width: 14px;
+    float: left;
+}
+.Collection-product ul li.p-index.products .p-title span {
+        font-size: 12px;
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    line-height: 15px;
+    float: left;
+    width: 82%;
+    height: 31px;
+    padding-top: 4px;
+    overflow: hidden;
+}
+
+.Collection-product button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    padding: 13px;
+    text-transform: capitalize;
+    background-color: #000;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.showcollection .Collection-data form#adonsFormproduct ul {
+        display: inline-block;
+    background-color: transparent !important;
+    padding-bottom: 18px;
+    padding-left: 0;
+}
+/* ----- Start media query ------ */
+@media (max-width: 990px) {
+  .PixelPopup-inner {
+    width: 62%;
+  }
+}
+
+@media (max-width: 880px) {
+  #tabs .ui-tabs-nav li a {
+    font-size: 12px;
+  }
+
+  #tabs .ui-tabs-nav li {
+    max-height: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .PixelPopup-inner {
+    width: 80%;
+  }
+}
+
+@media (max-width: 530px) {
+  #tabs .ui-tabs-nav li, #tabs .ui-tabs-nav li a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .view_demo_instruction img {
+    position: relative;
+    left: 42%;
+    top: 28%;
+    width: 169px;
+  }
+}
+
+@media (max-width: 480px) {
+  #tabs .ui-tabs-nav li a {
+    padding: 16px 16px!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border: 0;
+    margin: 0;
+  }
+
+  #tabs .ui-tabs-nav li {
+    max-height: 52px;
+  }
+
+  #showPixel thead th, #showTags thead {
+    font-size: 16px;
+  }
+
+  .editPixelCode td input.form-control,   #showTags td input.form-control {
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  a.edit_pixel {
+    width: 50%;
+    float: left;
+    background-color: #c5ced6;
+    height: 100%;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .ui-tabs-panel .buttons-pixel input#saveEditPixel, .ui-tabs-panel .buttons-pixel input#addNewPixel, #saveEditTags {
+    font-size: 12px;
+    padding: 6px 35px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 400px) {
+  .PixelPopup-inner {
+    width: 90%;
+  }
+}
+/* ----- End meida query ------ */
